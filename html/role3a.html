@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/role3a.css" />
+    <title>LicenseWise-Role Preference</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">LicenseWise</div>
+    </nav>
+    <section class="role-preference-section">
+        <h2 class="role-title">Role Preference</h2>
+        <p class="role-description">Select your role in the organization</p>
+        <form class="role-form">
+          <label class="role-option">
+            <input type="radio" name="role" value="individual-driver" />
+            <div class="role-card">
+              <div class="icon">👤</div>
+              <div>
+                <p class="role-name">Individual Driver</p>
+                <p class="role-subtext">Continue as a driver</p>
+              </div>
+            </div>
+          </label>
+          <label class="role-option">
+            <input type="radio" name="role" value="fleet-manager" />
+            <div class="role-card">
+              <div class="icon">🚍</div>
+              <div>
+                <p class="role-name">Fleet Manager</p>
+                <p class="role-subtext">Continue as a fleet manager</p>
+              </div>
+            </div>
+          </label>
+          <button type="submit" class="continue-button" disabled>Continue</button>
+        </form>
+      </section>
+  </body>
+</html>
