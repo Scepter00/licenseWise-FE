@@ -1,12 +1,10 @@
 :root {
   --sec-color: rgba(120, 14, 255, 1);
-  --black: rgba(0, 0, 0);
   --dark: rgba(36, 37, 38, 1);
   --dark-60: rgba(36, 37, 38, 1);
-  --dark-30: rgb(109, 106, 106, 1);
-  --dark-10: rgb(169, 169, 169, 1);
-  --light-grey:rgb(237, 237, 237, 1);
-  --light: rgba(255, 255, 255, 1);
+  --dark-30: rgba(36, 37, 38, 1);
+  --grey:rgb(244, 244, 244, 1);
+  --light: rgba(244, 247, 251, 1);
   --light-60: rgba(244, 247, 251, 1);
   --light-30: rgba(244, 247, 251, 1);
   --science-blue50: rgba(239, 249, 255, 1);
