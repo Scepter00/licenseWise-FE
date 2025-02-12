@@ -1,0 +1,136 @@
+
+nav{display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 30px 60px;
+background-color: var(--variable-collection-PRY-color);
+font-family: var(--body-lg-font-family);
+}
+
+.logo{font-size: 36px;
+    color: var(--light);
+}
+    
+
+.help-btn{
+    padding: 10px 24px;
+    background: var(--light);
+    color: var(--black);
+    font-size: var(--h6-font-size);
+    font-weight: var(--body-lg-font-weight);
+    border-radius: 10px;
+    border: none;
+} 
+
+.frame-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    padding: 30px 50px;
+    width: 400px;
+    height: fit-content;
+}
+
+form h4{
+    font-size: var(--h4-font-size);
+    font-family: var(--h4-font-family);
+}
+
+input{
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-30);
+    outline: none;
+    padding: 0 30px;
+    background: transparent;
+}
+
+::placeholder{
+    font-size: var(--h6-font-size);
+    font-family: var(--h6-font-family);
+}
+
+.login-btn{
+    width: 100%;
+    padding: 20px 0;
+    background: var(--variable-collection-PRY-color);
+    border: none;
+    border-radius: 10px;
+    color: var(--light);
+    font-family: var(--h6-font-family);
+    font-size: var(--h6-font-size);
+}
+
+.login-btn:hover{
+    background: var(--science-blue600);
+}
+
+.login-btn:active,
+.option-btn:active{
+    transform: scale(0.98);
+}
+
+.or-line{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.or-line h5{
+    color: var(--black);
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+}
+
+.or-line::before{
+    content: "";
+    width: 45%;
+    height: 1px;
+    background: var(--dark-10);
+    position: absolute;
+    left: 0;
+}
+
+.or-line::after{
+    content: "";
+    width: 45%;
+    height: 1px;
+    background: var(--dark-10);
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+}
+
+.option-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0;
+    gap: 8px;
+    border-radius: 10px;
+    background-color: var(--light-grey);
+    border: none;
+}
+
+.option-btn h6{
+    font-size: var(--h6-font-size);
+    font-family: var(--h6-font-family);
+}
+
+.option-btn:hover{
+    background: var(--dark-10);
+}
