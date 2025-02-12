@@ -15,8 +15,8 @@ button:focus-visible {
 }
 
 button{
-  cursor: pointer;
-  transition: .2s;
+    cursor: pointer;
+    transition: .2s;
 }
 a {
   text-decoration: none;
